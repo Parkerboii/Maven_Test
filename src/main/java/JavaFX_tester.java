@@ -16,7 +16,7 @@ public class JavaFX_tester extends Application {
     public void start(Stage stage) throws Exception {
         String version = System.getProperty("javafx.version");
         Label label = new Label("Hello from JavaFX: " + version + " ");
-        Label fisk = new Label("Fisk er en myte!");
+        Label fisk = new Label("Fisk er en myte!!!");
         //TextField hejsa = new TextField("Fisk er landdyr");
         //StackPane stackPane = new StackPane(label);
         GridPane pane = new GridPane();
